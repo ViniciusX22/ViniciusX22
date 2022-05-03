@@ -1,6 +1,6 @@
 ### Hey, good to see you! 👋
 
-#### My name is Vinícius Xavier, a 20-years-old beginner Web Developer who likes to explore creativity with different projects.
+#### My name is Vinícius Xavier, a 20-years-old Web Developer who likes to explore creativity with different projects.
 
 <br/>
 
@@ -22,6 +22,3 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ViniciusX22&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&custom_title=My Github Stats" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ViniciusX22&custom_title=My Favourite Languages&layout=compact" />
 </div>
-
-### Thanks for stopping by!
-![visitors](https://visitor-badge.glitch.me/badge?page_id=ViniciusX22.ViniciusX22-prod)
