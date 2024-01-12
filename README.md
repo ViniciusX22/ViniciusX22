@@ -17,8 +17,3 @@
 - 💬 Ask me about Javascript/CSS! I want to test my knowledge as well as help others learn;
 - 📫 How to reach me: contato@viniciusxavier.dev;
 - 😄 Pronouns: He/Him.
-
-<div>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ViniciusX22&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&custom_title=My Github Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ViniciusX22&custom_title=My Favourite Languages&layout=compact" />
-</div>
