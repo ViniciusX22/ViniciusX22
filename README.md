@@ -1,6 +1,6 @@
-### Hey, good to see you! 👋
+### Hey!
 
-#### My name is Vinícius Xavier, a 21-years-old Web Developer who likes to explore creativity with different projects.
+#### My name is Vinícius Xavier, a 22-years-old Web Developer who likes to explore creativity with different projects.
 
 <br/>
 
@@ -12,7 +12,7 @@
 
 #### A little resume about the status of my journey:
 - 🔭 I’m currently working on my personal website!
-- 🌱 I’m currently learning Flutter;
+- 🌱 I’m currently learning chatbot development for Discord;
 - 👯 I’m looking to collaborate on anything that's interesting and helps people;
 - 💬 Ask me about Javascript/CSS! I want to test my knowledge as well as help others learn;
 - 📫 How to reach me: contato@viniciusxavier.dev;
