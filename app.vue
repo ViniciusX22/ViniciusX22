@@ -41,6 +41,22 @@ useHead({
     dir: i18nHead.value.htmlAttrs!.dir,
   },
   link: [...(i18nHead.value.link || [])],
-  meta: [...(i18nHead.value.meta || [])]
+  meta: [...(i18nHead.value.meta || [])],
+  // Google tag (gtag.js)
+  script: [
+    {
+      async: true,
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-9SPFP9JER1',
+      tagPosition: 'head'
+    },
+    {
+      innerHTML: `window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-9SPFP9JER1');`,
+      tagPosition: 'head'
+    }
+  ]
 })
 </script>
