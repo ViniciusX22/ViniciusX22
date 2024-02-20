@@ -12,6 +12,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@nuxtjs/robots": "^3.0.0",
     "@vueuse/nuxt": "^10.7.2",
     "gsap": "^3.12.5",
     "nuxt": "^3.10.1",

@@ -2,6 +2,7 @@
   <select
     class="bg-transparent rounded-md border-none text-slate-100 uppercase cursor-pointer px-1"
     :value="locale"
+    :aria-label="$t('languageLabel')"
     @change="handleLocaleChange"
   >
     <option

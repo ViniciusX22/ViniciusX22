@@ -1,6 +1,16 @@
 export default { 
-  about: 'about',
-  projects: 'projects',
+  about: {
+    content: 'about',
+    label: 'Read more about Vinícius'
+  },
+  projects: {
+    content: 'projects',
+    label: "Checkout Vinícius' projects"
+  },
+  home: {
+    label: 'Go back to the beginning'
+  },
+  languageLabel: 'Select language',
   hi: 'hi,',
   hey: 'hey',
   greetings: "I'm",
@@ -19,4 +29,10 @@ export default {
     <p>In my free time, I like to study technology and experiment with various technologies of all kinds,
     such as browser extensions, task automation and even games. I have a passion for learning and sharing knowledge.</p>`,
   profileAlt: "Vinícius' profile picture",
+  github: {
+    label: "Checkout my GitHub",
+  },
+  linkedin: {
+    label: "Checkout my LinkedIn",
+  }
 }
