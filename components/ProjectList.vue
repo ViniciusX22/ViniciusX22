@@ -68,6 +68,15 @@ const projects = [
     },
     "cover": "/imgs/paths.webp",
     "url": "https://github.com/ViniciusX22/paths"
+  },
+  {
+    "name": "Portfolio",
+    "description": {
+      'en': "This website you're looking at!",
+      'pt': 'Esse site que você está vendo!'
+    },
+    "cover": "/imgs/portfolio.webp",
+    "url": "https://github.com/ViniciusX22/ViniciusX22"
   }
 ]
 
