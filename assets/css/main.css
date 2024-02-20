@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600&family=Roboto&display=swap");
+@tailwind utilities;
+@tailwind components;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .brand-gradient {
+    background-image: linear-gradient(
+      90deg,
+      theme(colors.purple.800),
+      theme(colors.blue.900)
+    );
+  }
+
+  .gradient-underline {
+    @apply brand-gradient;
+    background-size: 100% var(--tw-underline-height, 3px);
+    background-repeat: no-repeat;
+    background-position: left 1.45em;
+    padding-block: 0.25em;
+    transition: all 200ms;
+  }
+  .gradient-underline-cover {
+    @apply brand-gradient;
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    background-position: left 0.5em;
+    padding-block: 0.25em;
+    transition: all 200ms;
+  }
+}
+
+@layer components {
+  .link {
+    @apply gradient-underline cursor-pointer hover:gradient-underline-cover;
+  }
+}
