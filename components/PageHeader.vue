@@ -43,7 +43,7 @@
           />
         </a>
         <a
-          href="https://www.linkedin.com/in/vinicius-xavier-s/"
+          :href="`https://www.linkedin.com/in/vinicius-xavier-s/${locale == 'en' ? '?locale=en_US' : ''}`"
           :aria-label="$t('linkedin.label')"
           target="_blank"
         >
@@ -58,4 +58,7 @@
     </ClientOnly>
   </nav>
 </template>
+<script lang="ts" setup>
+const { locale } = useI18n()
+</script>
 
