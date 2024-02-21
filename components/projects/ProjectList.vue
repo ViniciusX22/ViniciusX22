@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap my-10 gap-10 justify-center xl:justify-start">
+  <div class="flex flex-wrap my-10 gap-10 gap-y-16 justify-center xl:justify-start">
     <ProjectItem
       v-for="project in projects"
       v-bind="project"
@@ -10,11 +10,13 @@
 
 <script setup lang="ts">
 import { breakpointsTailwind } from '@vueuse/core'
+import type { Project } from './typings';
+import ProjectItem from './ProjectItem.vue'
 
 const isMobile = useBreakpoints(breakpointsTailwind).smallerOrEqual('md')
 const { locale } = useI18n()
 
-const projects = [
+const projects: Project[] = [
   {
     "name": "Nook",
     "description": {
@@ -22,7 +24,8 @@ const projects = [
       "pt": "Um bot de entretenimento para o Discord"
     },
     "cover": "/imgs/nook.webp",
-    "url": "http://nookbot.fun"
+    "url": "http://nookbot.fun",
+    "skills": ["Python", "MongoDB"]
   },
   {
     "name": "Portal de Telemetria",
@@ -31,7 +34,8 @@ const projects = [
       'pt': 'Landing page de um portal de telemetria'
     },
     "cover": "/imgs/portal.webp",
-    "url": "https://telemetria.hitecnologia.com.br/"
+    "url": "https://telemetria.hitecnologia.com.br/",
+    "skills": ["HTML/CSS", "Bulma", "JavaScript"]
   },
   {
     "name": "Rubik's Cube",
@@ -40,7 +44,8 @@ const projects = [
       'pt': 'Um cubo de Rubik feito apenas com CSS'
     },
     "cover": "/imgs/cube.webp",
-    "url": "https://codepen.io/viniciusx22/full/XWRLWOv"
+    "url": "https://codepen.io/viniciusx22/full/XWRLWOv",
+    "skills": ["HTML/CSS"]
   },
   {
     "name": "Image Generator",
@@ -49,7 +54,8 @@ const projects = [
       'pt': 'Um gerador de imagens utilizando DALL-E'
     },
     "cover": "/imgs/ai-image.webp",
-    "url": "https://github.com/ViniciusX22/image-generator"
+    "url": "https://github.com/ViniciusX22/image-generator",
+    "skills": ["HTML/CSS", "JavaScript"]
   },
   {
     "name": "Snake",
@@ -58,7 +64,8 @@ const projects = [
       'pt': 'O jogo da cobrinha feito em Python'
     },
     "cover": "/imgs/snake.webp",
-    "url": "https://github.com/ViniciusX22/python-snake"
+    "url": "https://github.com/ViniciusX22/python-snake",
+    "skills": ["Python"]
   },
   {
     "name": "Paths",
@@ -67,7 +74,8 @@ const projects = [
       'pt': 'Um jogo feito na Global Game Jam 2019'
     },
     "cover": "/imgs/paths.webp",
-    "url": "https://github.com/ViniciusX22/paths"
+    "url": "https://github.com/ViniciusX22/paths",
+    "skills": ["Unity", "C#"]
   },
   {
     "name": "Portfolio",
@@ -76,8 +84,8 @@ const projects = [
       'pt': 'Esse site que você está vendo!'
     },
     "cover": "/imgs/portfolio.webp",
-    "url": "https://github.com/ViniciusX22/ViniciusX22"
+    "url": "https://github.com/ViniciusX22/ViniciusX22",
+    "skills": ["HTML/CSS", "JavaScript", "Vue.js", "Nuxt.js", "TailwindCSS", "GSAP"]
   }
 ]
-
 </script>

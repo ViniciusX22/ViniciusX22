@@ -9,3 +9,6 @@
     <ProjectList />
   </section>
 </template>
+<script lang="ts" setup>
+import ProjectList from './ProjectList.vue'
+</script>

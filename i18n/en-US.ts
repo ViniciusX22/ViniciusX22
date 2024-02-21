@@ -34,5 +34,6 @@ export default {
   },
   linkedin: {
     label: "Checkout my LinkedIn",
-  }
+  },
+  skillLink: 'Read more about {skill}',
 }
