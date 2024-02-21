@@ -19,7 +19,7 @@ export default {
   things: 'things',
   forinternet: 'for the internet',
   aboutContent:
-   `<p>My name is Vinícius and I make things for the internet, aka, I'm a web developer. I started professionally in 2019,
+   `<p>My name is Vinícius and I make things for the internet, aka, I'm a web developer. I started professionally in 2020,
     which leaves me with approximately <em>{years} years</em> of experience in this field.</p>
 
     <p>I've worked on several challenging projects in the automation, retail and credit sectors, creating everything

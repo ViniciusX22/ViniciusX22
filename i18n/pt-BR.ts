@@ -20,7 +20,7 @@ export default {
   forinternet: 'para a internet',
   aboutContent:
     `<p>me chamo Vinícius e faço coisas para a internet, vulgo, sou um desenvolvedor web.
-    comecei profissionalmente em 2019, o que me deixa com aproximadamente <em>{years} anos</em> de experiência nessa área.</p>
+    comecei profissionalmente em 2020, o que me deixa com aproximadamente <em>{years} anos</em> de experiência nessa área.</p>
 
     <p>já trabalhei em diversos projetos desafiadores nos setores de automação, varejo e crédito, criando desde simples páginas
     de relatório que consomem uma API até dashboards de análise, monitoramento e acesso remoto de CLPs. em meus projetos,
