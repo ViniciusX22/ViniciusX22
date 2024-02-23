@@ -24,9 +24,9 @@ export default {
 
     <p>I've worked on several challenging projects in the automation, retail and credit sectors, creating everything
     from simple report pages that consume an API to dashboards for analysis, monitoring and remote access of PLCs.
-    In my projects, I mainly use Vue.js/Nuxt.js for the frontend and Node.js and Python for the backend.</p>
+    Normally, I mainly use Vue.js/Nuxt.js for the frontend and Node.js and Python for the backend.</p>
 
-    <p>In my free time, I like to study technology and experiment with various technologies of all kinds,
+    <p>In my free time, I like to study technology and experiment with various kind of projects,
     such as browser extensions, task automation and even games. I have a passion for learning and sharing knowledge.</p>`,
   profileAlt: "Vinícius' profile picture",
   github: {
