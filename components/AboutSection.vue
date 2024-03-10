@@ -14,7 +14,7 @@
       <div class="flex justify-center flex-1">
         <ClientOnly>
           <img
-            class="aspect-auto sm:max-w-96 max-w-60 rounded-lg shadow-2xl shadow-gray-600"
+            class="aspect-[3/4] sm:max-w-96 max-w-60 rounded-lg shadow-2xl shadow-gray-600"
             src="/imgs/profile.webp"
             :alt="$t('profileAlt')"
           >
