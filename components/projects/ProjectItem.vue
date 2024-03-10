@@ -117,7 +117,7 @@ onUnmounted(() => {
 <style scoped>
 .tailwindcss {
   background: #5caee6;
-  color: inherit;
+  color: black;
 }
 
 .python {
@@ -131,7 +131,7 @@ onUnmounted(() => {
 
 .html-css {
   background: #fc4a0b;
-  color: inherit;
+  color: black;
 }
 
 .bulma {
@@ -156,7 +156,7 @@ onUnmounted(() => {
 
 .vue-js {
   background: #68b281;
-  color: inherit;
+  color: black;
 }
 
 .nuxt-js {
@@ -171,6 +171,6 @@ onUnmounted(() => {
 
 .telegram-api {
   background: #1f9dcf;
-  color: inherit;
+  color: black;
 }
 </style>
