@@ -164,4 +164,14 @@ onUnmounted(() => {
   background: #001e26;
   color: inherit;
 }
+
+.selenium {
+  background: #cf0a2c;
+  color: inherit;
+}
+
+.telegram-api {
+  background: #1f9dcf;
+  color: inherit;
+}
 </style>

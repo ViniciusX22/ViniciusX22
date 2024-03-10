@@ -10,6 +10,8 @@ export const skillLinks = {
   'C#': 'https://learn.microsoft.com/en-us/dotnet/csharp/',
   GSAP: 'https://gsap.com/',
   TailwindCSS: 'https://tailwindcss.com/',
+  Selenium: 'https://www.selenium.dev/',
+  'Telegram API': 'https://core.telegram.org/'
 }
 
 export type Skill = keyof typeof skillLinks

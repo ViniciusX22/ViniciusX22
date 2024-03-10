@@ -28,6 +28,16 @@ const projects: Project[] = [
     "skills": ["Python", "MongoDB"]
   },
   {
+    "name": "Trading Bot",
+    "description": {
+      "en": "A bot that converts signals into trade orders",
+      "pt": "Um bot que converte sinais em operações binárias"
+    },
+    "cover": "/imgs/trading-bot.webp",
+    "url": "https://github.com/ViniciusX22/trading-bot",
+    "skills": ["Python", "Selenium", "Telegram API"]
+  },
+  {
     "name": "Portal de Telemetria",
     "description": {
       'en': "The landing page of Hi Tecnologia's telemetry portal",
