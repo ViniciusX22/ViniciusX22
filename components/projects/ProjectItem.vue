@@ -42,7 +42,7 @@
         v-for="skill in skills"
         :key="skill"
         :class="slugfy(skill)"
-        class="font-mono text-sm font-bold bg-slate-100 text-gray-950 px-2 py-1 rounded-full shadow-2xl hover:shadow-3xl transition-shadow duration-300 ease-linear"
+        class="font-mono sm:text-sm text-xs font-bold bg-slate-100 text-gray-950 px-2 py-1 rounded-full shadow-2xl hover:shadow-3xl transition-shadow duration-300 ease-linear"
         :href="linkTo(skill)"
         :aria-label="$t('skillLink', { skill })"
         target="_blank"
