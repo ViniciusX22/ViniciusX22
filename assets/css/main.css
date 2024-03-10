@@ -31,60 +31,6 @@ html {
     padding-block: 0.25em;
     transition: all 200ms;
   }
-
-  .python {
-    background: #3672a4;
-    color: inherit;
-  }
-
-  .MongoDB {
-    color: #1b2d39;
-  }
-
-  .html-css {
-    background: #fc4a0b;
-    color: inherit;
-  }
-
-  .bulma {
-    background: #00d1b2;
-    color: inherit;
-  }
-
-  .javascript {
-    background: #efd81d;
-    color: black;
-  }
-
-  .api-integration {
-    background: #b0afff;
-    color: inherit;
-  }
-
-  .unity {
-    background: white;
-    color: black;
-  }
-
-  .csharp {
-    background: #2e2665;
-    color: inherit;
-  }
-
-  .vue-js {
-    background: #68b281;
-    color: #394a5e;
-  }
-
-  .nuxt-js {
-    background: #001e26;
-    color: inherit;
-  }
-
-  .tailwindcss {
-    background: #5caee6;
-    color: inherit;
-  }
 }
 
 @layer components {
