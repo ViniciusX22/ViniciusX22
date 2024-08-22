@@ -26,5 +26,8 @@ export default defineNuxtConfig({
     compilation: {
       strictMessage: false,
     },
+  },
+  routeRules: {
+    '/': { prerender: true },
   }
 });
