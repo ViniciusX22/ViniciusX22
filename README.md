@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://hellos-kappa.vercel.app/?width=200&height=100&borderRadius=50,50,10,50" alt="Hello"/>
+</p>
+
 <h1 align="center">
 Hey! I'm Vinícius Xavier
 </h1>
