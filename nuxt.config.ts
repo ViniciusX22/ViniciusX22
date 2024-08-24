@@ -28,7 +28,6 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    '/': { prerender: true },
     '/hellos/**': { proxy: 'https://hellos-kappa.vercel.app' }
   }
 });
