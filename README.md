@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://hellos-kappa.vercel.app/?width=200&height=70&borderRadius=35,35,7,35&fontSize=35" alt="Hello"/>
+  <img src="https://viniciusxavier.dev/hellos/?width=200&height=70&borderRadius=35,35,7,35&fontSize=35" alt="Hello"/>
 </p>
 
 <h1 align="center">
