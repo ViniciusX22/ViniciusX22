@@ -4,6 +4,7 @@ export const skillLinks = {
   'HTML/CSS': 'https://developer.mozilla.org/en-US/docs/Web/HTML',
   Bulma: 'https://bulma.io/',
   JavaScript: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+  TypeScript: 'https://www.typescriptlang.org/',
   'Vue.js': 'https://vuejs.org/',
   'Nuxt.js': 'https://nuxtjs.org/',
   Unity: 'https://unity.com/',
@@ -11,7 +12,9 @@ export const skillLinks = {
   GSAP: 'https://gsap.com/',
   TailwindCSS: 'https://tailwindcss.com/',
   Selenium: 'https://www.selenium.dev/',
-  'Telegram API': 'https://core.telegram.org/'
+  'Telegram API': 'https://core.telegram.org/',
+  'Node.js': 'https://nodejs.org/',
+  'Express.js': 'https://expressjs.com/'
 }
 
 export type Skill = keyof typeof skillLinks

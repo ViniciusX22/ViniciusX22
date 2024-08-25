@@ -144,6 +144,11 @@ onUnmounted(() => {
   color: black;
 }
 
+.typescript{
+  background: #3178c6;
+  color: inherit;
+}
+
 .unity {
   background: white;
   color: black;
@@ -172,5 +177,15 @@ onUnmounted(() => {
 .telegram-api {
   background: #1f9dcf;
   color: black;
+}
+
+.node-js {
+  background: #53a244;
+  color: black;
+}
+
+.express-js {
+  background: #323232;
+  color: inherit
 }
 </style>

@@ -95,7 +95,17 @@ const projects: Project[] = [
     },
     "cover": "/imgs/portfolio.webp",
     "url": "https://github.com/ViniciusX22/ViniciusX22",
-    "skills": ["HTML/CSS", "JavaScript", "Vue.js", "Nuxt.js", "TailwindCSS", "GSAP"]
+    "skills": ["HTML/CSS", "TypeScript", "Nuxt.js", "TailwindCSS", "GSAP"]
+  },
+  {
+    "name": "Hellos",
+    "description": {
+      'en': 'API for getting a "Hello" text in multiple languages',
+      'pt': 'API para obter a palavra "Olá" em múltiplos idiomas'
+    },
+    "cover": "/imgs/hellos.webp",
+    "url": "https://github.com/ViniciusX22/hellos",
+    "skills": ["Node.js", "TypeScript", "Express.js"]
   }
 ]
 </script>
