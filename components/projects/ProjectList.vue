@@ -106,6 +106,16 @@ const projects: Project[] = [
     "cover": "/imgs/text-bubble-hello-multiple-languages.webp",
     "url": "https://github.com/ViniciusX22/hellos",
     "skills": ["Node.js", "TypeScript", "Express.js"]
+  },
+  {
+    "name": "LinkedIn Saved Links Extractor",
+    "description": {
+      'en': 'Extension to copy saved links from LinkedIn',
+      'pt': 'Extensão para copiar links salvos do LinkedIn'
+    },
+    "cover": "/imgs/linkedin-saved-items-link-extractor.webp",
+    "url": "https://github.com/ViniciusX22/linkedin-saved-links-extractor",
+    "skills": ["HTML/CSS", "JavaScript"]
   }
 ]
 </script>
