@@ -46,10 +46,10 @@ export default {
   },
   skillLink: 'Leia mais sobre {skill}',
   seo: {
-    title: "Vinícius Xavier | Engenheiro de Software & Desenvolvedor Frontend | Vue.js, React & Node.js",
+    title: "Vinícius Xavier {'|'} Engenheiro de Software & Desenvolvedor Frontend {'|'} Vue.js, React & Node.js",
     description: "Engenheiro de Software especializado em desenvolvimento frontend. Construo aplicativos web escaláveis e de alto desempenho com Vue.js, React e Node.js.",
   },
   pages: {
-    home: 'Vinícius Xavier - Engenheiro de Software'
+    home: "Vinícius Xavier {'|'} Engenheiro de Software"
   }
 }

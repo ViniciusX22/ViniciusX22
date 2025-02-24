@@ -50,6 +50,6 @@ export default {
     description: "Software Engineer specializing in frontend development. I build scalable, high-performance web applications with Vue.js, React, and Node.js.",
   },
   pages: {
-    home: 'Vinícius Xavier - Software Engineer'
+    home: "Vinícius Xavier {'|'} Software Engineer"
   }
 }
