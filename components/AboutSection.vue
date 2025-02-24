@@ -6,38 +6,18 @@
   >
     <div class="flex justify-around flex-wrap items-start gap-10">
       <div class="basis-96 flex-1 sm:text-xl text-lg font-mono [&_p:first-of-type]:mt-12 [&_p]:mt-6">
-        <h1 class="gradient-underline sm:text-5xl text-4xl w-fit inline font-title">
+        <h2 class="gradient-underline sm:text-5xl text-4xl w-fit inline font-title">
           {{ $t('hey') }}
-        </h1>
-        <div v-html="$t('aboutContent', { years })" />
+        </h2>
+        <div v-html="$t('aboutContent')" />
       </div>
       <div class="flex justify-center basis-96">
         <img
           class="aspect-[3/4] md:w-96 w-60 rounded-lg shadow-2xl shadow-gray-600"
-          src="/imgs/profile.webp"
+          src="/imgs/vinicius-xavier-profile-picture.webp"
           :alt="$t('profileAlt')"
         >
       </div>
     </div>
   </section>
 </template>
-
-<script setup lang="ts">
-const startDate = new Date(2020, 3, 1)
-const years = ref('');
-const { locale } = useI18n()
-
-const updateYears = () => {
-  const now = Date.now()
-  years.value = Intl.NumberFormat(locale.value, { maximumFractionDigits: 8, minimumFractionDigits: 8}).format(((now - startDate.getTime()) / (1000 * 60 * 60 * 24 * 365)))
-}
-
-watch(locale, () => {
-  updateYears()
-})
-
-onMounted(() => {
-  updateYears()
-  setInterval(updateYears, 1000)
-})
-</script>

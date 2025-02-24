@@ -15,19 +15,28 @@ export default {
   hey: 'hey',
   greetings: "I'm",
   name: 'Vinícius',
-  doerOf: '<em>doer</em> of ',
+  doerOf: 'building ',
   things: 'things',
-  forinternet: 'for the internet',
+  forinternet: ' for the web<br/>for <em>{years} years</em>',
   aboutContent:
-   `<p>My name is Vinícius and I make things for the internet, aka, I'm a web developer. I started professionally in 2020,
-    which leaves me with approximately <em>{years} years</em> of experience in this field.</p>
-
-    <p>I've worked on several challenging projects in the automation, retail and credit sectors, creating everything
-    from simple report pages that consume an API to dashboards for analysis, monitoring and remote access of PLCs.
-    Normally, I mainly use Vue.js/Nuxt.js for the frontend and Node.js and Python for the backend.</p>
-
-    <p>In my free time, I like to study technology and experiment with various kind of projects,
-    such as browser extensions, task automation and even games. I have a passion for learning and sharing knowledge.</p>`,
+   `
+    <p>
+      I'm Vinícius, a Software Engineer who builds things for the internet (a.k.a. web developer). 
+      Since 2020, I've been crafting everything from interactive dashboards to automation tools and even occasionally games. 
+      If there's a challenge, I'll dive in headfirst &#8212; especially if it involves problem-solving, optimizing performance, or making complex things simple.
+    </p>
+    <p>
+      In my professional journey, I've worked with Vue.js, React, Node.js, and Python, helping businesses in sectors like automation, retail, finance and delivery. 
+      Whether it's a critical frontend application or an efficient backend tool, I focus on clean code, usability, and scalability.
+    </p>
+    <p>
+      When I'm not coding, I'm probably experimenting with new tech, building fun side projects, or figuring out how to automate things I'm too lazy to do manually. 
+      (If you haven't tried scripting away life's little inconveniences, you're missing out!)
+    </p>
+    <p>
+      If you're interested in working together, collaborating on a project, or just chatting about tech, feel free to reach out!
+    </p>
+  `,
   profileAlt: "Vinícius' profile picture",
   github: {
     label: "Checkout my GitHub",
@@ -36,4 +45,11 @@ export default {
     label: "Checkout my LinkedIn",
   },
   skillLink: 'Read more about {skill}',
+  seo: {
+    title: "Vinícius Xavier {'|'} Software Engineer & Frontend Developer {'|'} Vue.js, React & Node.js",
+    description: "Software Engineer specializing in frontend development. I build scalable, high-performance web applications with Vue.js, React, and Node.js.",
+  },
+  pages: {
+    home: 'Vinícius Xavier - Software Engineer'
+  }
 }

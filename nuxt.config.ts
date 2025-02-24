@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", '@vueuse/nuxt', 'nuxt-icon', '@nuxtjs/i18n', '@nuxtjs/robots'],
+  modules: ["@nuxtjs/tailwindcss", '@vueuse/nuxt', 'nuxt-icon', '@nuxtjs/i18n', '@nuxtjs/robots', 'nuxt-gtag'],
   css: ["~/assets/css/main.css"],
   i18n: {
     fallbackLocale: 'en',
@@ -29,5 +29,9 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/hellos/**': { proxy: 'https://hellos-kappa.vercel.app' }
+  },
+  gtag: {
+    enabled: process.env.NODE_ENV === 'production',
+    id: 'G-9SPFP9JER1'
   }
 });

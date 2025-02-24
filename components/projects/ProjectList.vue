@@ -23,7 +23,7 @@ const projects: Project[] = [
       "en": "An entertainment focused Discord bot",
       "pt": "Um bot de entretenimento para o Discord"
     },
-    "cover": "/imgs/nook.webp",
+    "cover": "/imgs/nook-discord-bot.webp",
     "url": "http://nookbot.fun",
     "skills": ["Python", "MongoDB"]
   },
@@ -33,7 +33,7 @@ const projects: Project[] = [
       "en": "A bot that converts signals into trade orders",
       "pt": "Um bot que converte sinais em operações binárias"
     },
-    "cover": "/imgs/trading-bot.webp",
+    "cover": "/imgs/pocket-option-trading-bot-telegram.webp",
     "url": "https://github.com/ViniciusX22/trading-bot",
     "skills": ["Python", "Selenium", "Telegram API"]
   },
@@ -43,7 +43,7 @@ const projects: Project[] = [
       'en': "The landing page of Hi Tecnologia's telemetry portal",
       'pt': 'Landing page de um portal de telemetria'
     },
-    "cover": "/imgs/portal.webp",
+    "cover": "/imgs/telemetry-portal-hi-tecnologia.webp",
     "url": "https://telemetria.hitecnologia.com.br/",
     "skills": ["HTML/CSS", "Bulma", "JavaScript"]
   },
@@ -53,7 +53,7 @@ const projects: Project[] = [
       'en': "A pure CSS Rubik's Cube",
       'pt': 'Um cubo de Rubik feito apenas com CSS'
     },
-    "cover": "/imgs/cube.webp",
+    "cover": "/imgs/rubiks-cube-css-only.webp",
     "url": "https://codepen.io/viniciusx22/full/XWRLWOv",
     "skills": ["HTML/CSS"]
   },
@@ -63,7 +63,7 @@ const projects: Project[] = [
       'en': "An image generator powered by DALL-E",
       'pt': 'Um gerador de imagens utilizando DALL-E'
     },
-    "cover": "/imgs/ai-image.webp",
+    "cover": "/imgs/image-generator-with-artificial-inteligence.webp",
     "url": "https://github.com/ViniciusX22/image-generator",
     "skills": ["HTML/CSS", "JavaScript"]
   },
@@ -73,7 +73,7 @@ const projects: Project[] = [
       'en': "The Snake game made in Python",
       'pt': 'O jogo da cobrinha feito em Python'
     },
-    "cover": "/imgs/snake.webp",
+    "cover": "/imgs/python-snake-game-screenshot.webp",
     "url": "https://github.com/ViniciusX22/python-snake",
     "skills": ["Python"]
   },
@@ -83,7 +83,7 @@ const projects: Project[] = [
       'en': "A game made in the Global Game Jam 2019",
       'pt': 'Um jogo feito na Global Game Jam 2019'
     },
-    "cover": "/imgs/paths.webp",
+    "cover": "/imgs/paths-global-game-jam-project.webp",
     "url": "https://github.com/ViniciusX22/paths",
     "skills": ["Unity", "C#"]
   },
@@ -93,7 +93,7 @@ const projects: Project[] = [
       'en': "This website you're looking at!",
       'pt': 'Esse site que você está vendo!'
     },
-    "cover": "/imgs/portfolio.webp",
+    "cover": "/imgs/vinicius-xavier-portfolio-screenshot.webp",
     "url": "https://github.com/ViniciusX22/ViniciusX22",
     "skills": ["HTML/CSS", "TypeScript", "Nuxt.js", "TailwindCSS", "GSAP"]
   },
@@ -103,7 +103,7 @@ const projects: Project[] = [
       'en': 'API for getting a "Hello" text in multiple languages',
       'pt': 'API para obter a palavra "Olá" em múltiplos idiomas'
     },
-    "cover": "/imgs/hellos.webp",
+    "cover": "/imgs/text-bubble-hello-multiple-languages.webp",
     "url": "https://github.com/ViniciusX22/hellos",
     "skills": ["Node.js", "TypeScript", "Express.js"]
   }

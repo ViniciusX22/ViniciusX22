@@ -40,7 +40,7 @@
         />
       </a>
       <a
-        :href="`https://www.linkedin.com/in/vinicius-xavier-s/${locale == 'en' ? '?locale=en_US' : ''}`"
+        :href="`https://www.linkedin.com/in/vinicius-xavier-s/${locale == 'pt' ? '?locale=pt_BR' : ''}`"
         :aria-label="$t('linkedin.label')"
         target="_blank"
       >
