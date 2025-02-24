@@ -28,7 +28,8 @@ export default defineNuxtConfig({
     },
   },
   routeRules: {
-    '/hellos/**': { proxy: 'https://hellos-kappa.vercel.app' }
+    '/hellos/**': { proxy: 'https://hellos-kappa.vercel.app' },
+    '/': { prerender: true }
   },
   gtag: {
     enabled: process.env.NODE_ENV === 'production',
